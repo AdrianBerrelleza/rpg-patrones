@@ -1,0 +1,122 @@
+==============================================================
+CORRIDA 1
+Entrada: nombre=Aria | clase=2 | equipamiento=1,3 | enemigo=1
+==============================================================
+Nombre del personaje:
+Clase (1=Guerrero, 2=Mago):
+Equipamiento separado por comas (1=Espada, 2=Armadura, 3=Veneno; vacío=ninguno):
+Enemigo (1=Goblin, 2=Brujo):
+
+Héroe: Aria (base) + Espada + Veneno
+ATK: 30 | DEF: 10 | VEL: 15 | HP: 100
+Enemigo: Goblin salvaje | HP: 60
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Aria (base) + Espada + Veneno usa estrategia.AtaqueHechizo sobre Goblin salvaje
+  Daño: 35 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 60 -> 25
+Goblin salvaje (base) usa estrategia.AtaqueEspada sobre Aria
+  Daño: 3 | Efecto: espada
+  Aria HP: 100 -> 97
+
+--- TURNO 2 ---
+Aria (base) + Espada + Veneno usa estrategia.AtaqueHechizo sobre Goblin salvaje
+  Daño: 35 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 25 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Aria (base) + Espada + Veneno (HP restante: 97)
+
+==============================================================
+CORRIDA 2
+Entrada: nombre=Thor | clase=1 | equipamiento=2 | enemigo=2
+==============================================================
+Nombre del personaje:
+Clase (1=Guerrero, 2=Mago):
+Equipamiento separado por comas (1=Espada, 2=Armadura, 3=Veneno; vacío=ninguno):
+Enemigo (1=Goblin, 2=Brujo):
+
+Héroe: Thor (base) + Armadura
+ATK: 25 | DEF: 23 | VEL: 10 | HP: 120
+Enemigo: Brujo oscuro | HP: 80
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Thor (base) + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 17 | Efecto: espada
+  Brujo oscuro HP: 80 -> 63
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Thor
+  Daño: 18 | Efecto: hechizo
+  Thor HP: 120 -> 102
+
+--- TURNO 2 ---
+Thor (base) + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 17 | Efecto: espada
+  Brujo oscuro HP: 63 -> 46
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Thor
+  Daño: 18 | Efecto: hechizo
+  Thor HP: 102 -> 84
+
+--- TURNO 3 ---
+Thor (base) + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 17 | Efecto: espada
+  Brujo oscuro HP: 46 -> 29
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Thor
+  Daño: 18 | Efecto: hechizo
+  Thor HP: 84 -> 66
+
+--- TURNO 4 ---
+Thor (base) + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 17 | Efecto: espada
+  Brujo oscuro HP: 29 -> 12
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Thor
+  Daño: 18 | Efecto: hechizo
+  Thor HP: 66 -> 48
+
+--- TURNO 5 ---
+Thor (base) + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 17 | Efecto: espada
+  Brujo oscuro HP: 12 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Thor (base) + Armadura (HP restante: 48)
+
+==============================================================
+CORRIDA 3
+Entrada: nombre=Brann | clase=1 | equipamiento=3,1,2 | enemigo=2
+==============================================================
+Nombre del personaje:
+Clase (1=Guerrero, 2=Mago):
+Equipamiento separado por comas (1=Espada, 2=Armadura, 3=Veneno; vacío=ninguno):
+Enemigo (1=Goblin, 2=Brujo):
+
+Héroe: Brann (base) + Veneno + Espada + Armadura
+ATK: 35 | DEF: 23 | VEL: 10 | HP: 120
+Enemigo: Brujo oscuro | HP: 80
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Brann (base) + Veneno + Espada + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 32 | Efecto: espada + veneno
+  Brujo oscuro HP: 80 -> 48
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Brann
+  Daño: 18 | Efecto: hechizo
+  Brann HP: 120 -> 102
+
+--- TURNO 2 ---
+Brann (base) + Veneno + Espada + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 32 | Efecto: espada + veneno
+  Brujo oscuro HP: 48 -> 16
+Brujo oscuro (base) usa estrategia.AtaqueHechizo sobre Brann
+  Daño: 18 | Efecto: hechizo
+  Brann HP: 102 -> 84
+
+--- TURNO 3 ---
+Brann (base) + Veneno + Espada + Armadura usa estrategia.AtaqueEspada sobre Brujo oscuro
+  Daño: 32 | Efecto: espada + veneno
+  Brujo oscuro HP: 16 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Brann (base) + Veneno + Espada + Armadura (HP restante: 84)
+
